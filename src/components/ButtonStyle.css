@@ -1,0 +1,27 @@
+.calculator__button {
+	display: flex;
+	justify-content: center;
+	color: #61dafb;
+	align-items: center;
+	height: 50px;
+	width: 50px;
+	background: #00000066;
+	box-shadow: 0 1px 3px 0 #61dafb5e;
+	backdrop-filter: blur(5.5px);
+	-webkit-backdrop-filter: blur(5.5px);
+	border: 1px solid #61dafb93;
+	font-size: 20px;
+	border-radius: 25px;
+	user-select: none;
+	flex: 1 1;
+	margin: 5px;
+}
+
+.calculator__button:hover {
+	background: #41414166;
+	color: #61dafb8e;
+}
+
+.button__operator {
+	background: #58000066;
+}
